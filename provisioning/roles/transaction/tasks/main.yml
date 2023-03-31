@@ -26,6 +26,11 @@
   apt:
     name: python3-pip
 
+- name: Install openssl
+  pip:
+    name: pyopenssl
+    executable: "pip3"
+
 - name: Install pwntools
   pip:
     name: pwntools
