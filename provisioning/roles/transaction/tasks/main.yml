@@ -18,6 +18,10 @@
       owner: root
       mode: '0400'
 
+- name: Install pip3
+  apt:
+    name: python3-pip
+
 - name: Install pwntools
   pip:
     name: pwntools
