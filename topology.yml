@@ -3,8 +3,8 @@ name: junior-ctf-sandbox
 hosts:
   - name: transaction
     base_box: 
-      image: ubuntu-focal-x86_64
-      mgmt_user: ubuntu
+      image: debian-10-man
+      mgmt_user: debian
     flavor: standard.medium
 
 routers:
