@@ -3,7 +3,7 @@ name: junior-ctf-sandbox
 hosts:
   - name: transaction
     base_box: 
-      image: debian-10-man
+      image: kali
       mgmt_user: debian
     flavor: standard.medium
 

@@ -22,22 +22,9 @@
   apt:
     update_cache: yes
 
-- name: Install python3-dev
-  apt:
-    name: python3-dev
-
-- name: Install libffi-dev
-  apt:
-    name: libffi-dev
-
 - name: Install pip3
   apt:
     name: python3-pip
-
-- name: Install openssl
-  pip:
-    name: pyopenssl
-    executable: "pip3"
 
 - name: Install pwntools
   pip:
