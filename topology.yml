@@ -3,9 +3,9 @@ name: junior-ctf-sandbox
 hosts:
   - name: transaction
     base_box: 
-      image: kali
+      image: kali2
       mgmt_user: debian
-    flavor: standard.medium
+    flavor: standard.medium3
 
 routers:
   - name: router
